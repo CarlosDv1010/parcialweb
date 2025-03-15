@@ -1,0 +1,12 @@
+{
+  "loading": "Loading...",
+  "selectRobot": "Select a robot",
+  "contact": "Contact us: +57 3102105253 - info@robot-lovers.com - @robot-lovers",
+  "tableHeaders.id": "ID",
+  "tableHeaders.name": "Name",
+  "tableHeaders.model": "Model",
+  "tableHeaders.company": "Manufacturer",
+  "detail.year": "Year of manufacturing",
+  "detail.capacity": "Processing capacity",
+  "detail.humor": "Additional characteristics"
+}

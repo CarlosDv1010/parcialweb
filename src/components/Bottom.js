@@ -1,13 +1,22 @@
-import React, { useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import React from 'react';
 
 function Bottom() {
-
-    return (
-      //Fijar al final de la pagina
-    <div className="align-items-center col-xs-1 text-center justify-content-center bg-light fixed-bottom">
-        <p className='align-items-center'>Contact Us: +57123812836 - info@robotlovers.com - @robotlovers.</p>
-    </div>)
+  return (
+    <div
+      className="container-fluid text-center py-3"
+      style={{
+        backgroundColor: '#fff',
+        position: 'fixed',
+        bottom: 0,
+        width: '100%',
+        boxShadow: '0 -2px 5px rgba(0, 0, 0, 0.1)',
+      }}
+    >
+      <p className="mb-0" style={{ color: '#333' }}>
+        Contact us: +57 3102105253 - info@robot-lovers.com - @robot-lovers
+      </p>
+    </div>
+  );
 }
 
 export default Bottom;

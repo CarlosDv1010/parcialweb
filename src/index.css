@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.thead-black {
+  background-color: #000 !important;
+  color: #fff !important;
+}
